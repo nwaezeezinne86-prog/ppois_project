@@ -16,17 +16,6 @@ std::string partOfSpeechToString(PartOfSpeech pos) {
 }
 
 PartOfSpeech partOfSpeechFromString(const std::string& s) {
-    if (s == "noun") return PartOfSpeech::Noun;
-    if (s == "verb") return PartOfSpeech::Verb;
-    if (s == "adj")  return PartOfSpeech::Adjective;
-    if (s == "adv")  return PartOfSpeech::Adverb;
-    if (s == "pron") return PartOfSpeech::Pronoun;
-    if (s == "prep") return PartOfSpeech::Preposition;
-    if (s == "conj") return PartOfSpeech::Conjunction;
-    return PartOfSpeech::Unknown;
-}
-
-PartOfSpeech partOfSpeechFromString(const std::string& s) {
     std::string lower = s;
     std::transform(lower.begin(), lower.end(), lower.begin(),
                    [](unsigned char c) { return std::tolower(c); });
@@ -47,12 +36,12 @@ bool Word::operator==(const Word& other) const {
     return text_ == other.text_ && pos_ == other.pos_;
 }
 
-bool Word::operator<(const Word& other) const {
-    return text_ < other.text_;
-}
-
 bool Word::operator!=(const Word& other) const {
     return !(*this == other);
+}
+
+bool Word::operator<(const Word& other) const {
+    return text_ < other.text_;
 }
 
 std::string Word::toLower() const {
