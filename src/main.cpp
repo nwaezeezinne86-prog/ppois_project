@@ -16,6 +16,7 @@ void printMenu() {
               << "6. Save\n"
               << "7. Load\n"
               << "8. Show word count\n"
+              << "9. Clear All words\n"     
               << "0. Exit\n"
               << "Choice: ";
 }
@@ -79,6 +80,10 @@ int main() {
                     break;
                 case 8:
                     std::cout << "Total words: " << dict->size() << "\n";
+                    break;
+                case 9:
+                    dict->clear();
+                    std::cout << "All words cleared.\n";
                     break;
                 case 0:
                     return 0;
