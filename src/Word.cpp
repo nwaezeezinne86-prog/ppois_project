@@ -26,6 +26,20 @@ PartOfSpeech partOfSpeechFromString(const std::string& s) {
     return PartOfSpeech::Unknown;
 }
 
+PartOfSpeech partOfSpeechFromString(const std::string& s) {
+    std::string lower = s;
+    std::transform(lower.begin(), lower.end(), lower.begin(),
+                   [](unsigned char c) { return std::tolower(c); });
+    if (lower == "noun") return PartOfSpeech::Noun;
+    if (lower == "verb") return PartOfSpeech::Verb;
+    if (lower == "adj")  return PartOfSpeech::Adjective;
+    if (lower == "adv")  return PartOfSpeech::Adverb;
+    if (lower == "pron") return PartOfSpeech::Pronoun;
+    if (lower == "prep") return PartOfSpeech::Preposition;
+    if (lower == "conj") return PartOfSpeech::Conjunction;
+    return PartOfSpeech::Unknown;
+}
+
 Word::Word(std::string text, PartOfSpeech pos)
     : text_(std::move(text)), pos_(pos) {}
 
