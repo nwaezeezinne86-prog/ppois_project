@@ -1,0 +1,4 @@
+hello|noun|привет;здравствуйте
+cat|noun|кошка;кот
+run|verb|бежать;бегать
+beautiful|adj|красивый
