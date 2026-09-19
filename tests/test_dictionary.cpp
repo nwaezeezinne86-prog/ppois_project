@@ -40,3 +40,12 @@ TEST_F(DictionaryTest, Serialization) {
     EXPECT_EQ(restored.getEnglish().getText(), "run");
     EXPECT_EQ(restored.getTranslations().size(), 2u);
 }
+
+
+TEST_F(DictionaryTest, ClearAll) {
+    dict.addEntry(DictionaryEntry(Word("a", PartOfSpeech::Noun), {"а"}));
+    dict.addEntry(DictionaryEntry(Word("b", PartOfSpeech::Noun), {"б"}));
+    EXPECT_EQ(dict.size(), 2u);
+    dict.clear();
+    EXPECT_EQ(dict.size(), 0u);
+}
