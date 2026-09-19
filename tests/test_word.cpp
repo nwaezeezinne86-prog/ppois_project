@@ -17,3 +17,8 @@ TEST(WordTest, PartOfSpeechConversion) {
     EXPECT_EQ(partOfSpeechFromString("verb"), PartOfSpeech::Verb);
     EXPECT_EQ(partOfSpeechFromString("xyz"), PartOfSpeech::Unknown);
 }
+
+TEST(WordTest, ToLower) {
+    Word w("HELLO", PartOfSpeech::Noun);
+    EXPECT_EQ(w.toLower(), "hello");
+}

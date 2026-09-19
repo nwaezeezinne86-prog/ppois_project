@@ -1,4 +1,6 @@
 #include "Word.h"
+#include <algorithm>
+#include <cctype>
 
 std::string partOfSpeechToString(PartOfSpeech pos) {
     switch (pos) {
@@ -37,4 +39,11 @@ bool Word::operator<(const Word& other) const {
 
 bool Word::operator!=(const Word& other) const {
     return !(*this == other);
+}
+
+std::string Word::toLower() const {
+    std::string result = text_;
+    std::transform(result.begin(), result.end(), result.begin(),
+                   [](unsigned char c) { return std::tolower(c); });
+    return result;
 }
