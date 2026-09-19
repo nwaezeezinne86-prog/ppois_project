@@ -1,8 +1,4 @@
 
-
-
-
-
 #pragma once
 #include <string>
 
@@ -28,6 +24,7 @@ public:
     bool operator==(const Word& other) const;
     bool operator!=(const Word& other) const;
     bool operator<(const Word& other) const;
+    std::string  toLower() const;
 
 private:
     std::string text_;
