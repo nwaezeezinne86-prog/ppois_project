@@ -99,3 +99,30 @@ cmake -S . -B build
 cmake --build build -j
 cd build && ctest --output-on-failure
 ./dictionary_app
+
+## Appendix C — Screenshots
+
+Visual evidence of the project's development history and results.
+
+### Repository Structure
+![Repository home](screenshots/01-repo-home.png)
+
+### Issues and Task Tracking
+![Issues list](screenshots/02-issues.png)
+
+### Merged Pull Requests
+![Closed PRs](screenshots/03-closed-prs.png)
+
+![PR detail](screenshots/04-pr-detail.png)
+
+### Project Board
+![Kanban board](screenshots/05-project-board.png)
+
+### Continuous Integration
+![CI runs](screenshots/06-actions-ci.png)
+
+### Test Results
+![Tests passing](screenshots/07-tests-passed.png)
+
+### Application Demo
+![App running](screenshots/08-app-demo.png)
