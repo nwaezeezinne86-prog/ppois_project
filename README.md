@@ -66,14 +66,14 @@ cd build && ctest --output-on-failure
 
 ### Принципы ООП
 
-- **Наследование** — `Dictionary : public IDictionary`
-- **Полиморфизм** — виртуальные методы `IDictionary`, `std::shared_ptr<IDictionary>`
+- **Наследование** — Dictionary : public IDictionary
+- **Полиморфизм** — виртуальные методы IDictionary, std::shared_ptr<IDictionary>
 - **Шаблоны** — класс `Repository<T>` для обобщённого хранения
-- **STL** — `std::map`, `std::vector`, `std::optional`, `std::shared_ptr`, алгоритмы
+- **STL** — `std::map`, std::vector, std::optional, std::shared_ptr, алгоритмы
 
 ### Сборка и запуск
 
-```bash
+
 # Клонирование репозитория
 git clone git@github.com:nwaezeezinne86-prog/ppois_project.git
 cd ppois_project
