@@ -87,6 +87,6 @@ class Dictionary : public IDictionary { ... };
 
 # Спасибо за внимание
 
-**Вопросы?**
+
 
 GitHub: https://github.com/nwaezeezinne86-prog/ppois_project
