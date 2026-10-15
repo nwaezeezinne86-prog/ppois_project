@@ -37,23 +37,23 @@
 
 ## Задачи разработки / Development Tasks
 
-- ✅ **Парсинг данных** и загрузка из текстового файла в память  
+- **Парсинг данных** и загрузка из текстового файла в память  
   **Parsing data** and loading from text file into memory
-- ✅ **Иерархия классов** (инкапсуляция, наследование, полиморфизм)  
+- **Иерархия классов** (инкапсуляция, наследование, полиморфизм)  
   **Class hierarchy** (encapsulation, inheritance, polymorphism)
-- ✅ **Правила модели** для поиска слова по входным данным  
+- **Правила модели** для поиска слова по входным данным  
   **Model rules** for finding a word by input data
-- ✅ **Вывод списка** подходящих слов с указанием части речи  
+- **Вывод списка** подходящих слов с указанием части речи  
   **Display list** of matching words with parts of speech
-- ✅ **Поиск слова** и получение всей информации о нём  
+- **Поиск слова** и получение всей информации о нём  
   **Search** for a word and retrieve all information
-- ✅ **Методы и обработчики** команд пользователя  
+- **Методы и обработчики** команд пользователя  
   **Methods and handlers** for user commands
-- ✅ **Консольный интерфейс** приложения  
+- **Консольный интерфейс** приложения  
   **Console interface** for the application
-- ✅ **Тестирование** с использованием GoogleTest  
+- **Тестирование** с использованием GoogleTest  
   **Testing** with GoogleTest
-- ✅ **Автоматическая сборка и тестирование** через GitHub Actions  
+- **Автоматическая сборка и тестирование** через GitHub Actions  
   **Automatic build and test** via GitHub Actions
 
 ---
@@ -78,6 +78,6 @@
 
 ### Входные данные / Input Data
 
-Приложение предоставляет интерактивное меню:  
-The application provides an interactive menu:
+Приложение предоставляет интерактивное меню  
+The application provides an interactive menu
 
