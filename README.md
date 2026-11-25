@@ -23,6 +23,16 @@ development workflow (Git, Pull Requests, CI, documentation).
 | Detailed report  | [docs/REPORT.md](docs/REPORT.md) |
 | Inheritance, polymorphism, templates, STL | See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) |
 | Language: C++ | C++17, no external dependencies |
+| Требование | Где отражено |
+|---|---|
+| Роли | Роли описаны в [CONTRIBUTING.md](CONTRIBUTING.md) |
+| GitHub, pull-реквесты, история изменений, итеративная разработка | Подход «ветка для каждой задачи» (branch-per-task), шаблон PR, директория `.github/` |
+| Документация проекта в формате MD | `README.md`, `CONTRIBUTING.md`, файлы в `docs/*.md` |
+| Обязательное модульное тестирование (unit testing) | `tests/test_dictionary.cpp` (14 тестов), выполнение в рамках CI |
+| Доска задач | [docs/BOARD.md](docs/BOARD.md) (дублируется в GitHub Projects) |
+| Подробный отчет | [docs/REPORT.md](docs/REPORT.md) |
+| Наследование, полиморфизм, шаблоны, STL | См. [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) |
+| Язык: C++ | C++17, без внешних зависимостей |
 
 ## Build and run
 
