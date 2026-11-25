@@ -1,0 +1,6 @@
+build/
+*.o
+dictionary
+run_tests
+ppois_project/
+build/

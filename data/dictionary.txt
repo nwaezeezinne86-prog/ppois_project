@@ -1,0 +1,28 @@
+# kind|english|russian;russian|extra
+noun|apple|яблоко|n
+noun|book|книга|f
+noun|boy|мальчик|m
+noun|cat|кошка;кот|f
+noun|city|город|m
+noun|dog|собака;пёс|f
+noun|house|дом|m
+noun|language|язык|m
+noun|library|библиотека|f
+noun|water|вода|f
+noun|window|окно|n
+noun|friend|друг;подруга|m
+verb|read|читать|imperf
+verb|write|писать|imperf
+verb|speak|говорить|imperf
+verb|understand|понимать|imperf
+verb|translate|переводить|imperf
+verb|give|дать;давать|perf
+verb|buy|купить|perf
+adj|big|большой;крупный
+adj|beautiful|красивый;прекрасный
+adj|new|новый
+adj|fast|быстрый
+phrase|good morning|доброе утро
+phrase|thank you|спасибо;благодарю
+phrase|how are you|как дела;как поживаете
+phrase|see you later|до встречи;увидимся
