@@ -4,9 +4,9 @@
 Console dictionary for EN⇄RU lookup, prefix search and editable data stored in a text file.
 Консольный словарь для поиска по английскому языку EN⇄RU, поиска по префиксам и редактирования данных, хранящихся в текстовом файле.
 
-## 2. Team and process
-Three members, roles in `CONTRIBUTING.md`. Work through GitHub: branches, pull requests, review, CI. Iterations: (1) model, (2) storage + lookup, (3) CLI, (4) tests and docs.
-Три участника, роли описаны в `CONTRIBUTING.md`. Работа через GitHub: ветки, пул-реквесты, код-ревью, CI. Итерации: (1) модель, (2) хранилище и поиск, (3) интерфейс командной строки (CLI), (4) тесты и документация.
+## 2. Process
+Roles in `CONTRIBUTING.md`. Work through GitHub: branches, pull requests, review, CI. Iterations: (1) model, (2) storage + lookup, (3) CLI, (4) tests and docs.
+Роли описаны в `CONTRIBUTING.md`. Работа через GitHub: ветки, пул-реквесты, код-ревью, CI. Итерации: (1) модель, (2) хранилище и поиск, (3) интерфейс командной строки (CLI), (4) тесты и документация.
 
 ## 3. Architecture
 See `docs/ARCHITECTURE.md` (class diagram, concepts used).
