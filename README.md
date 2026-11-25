@@ -1,17 +1,26 @@
-# English–Russian Dictionary (C++17)
+# English–Russian Dictionary 
 
-A console English⇄Russian dictionary built in C++ with inheritance, polymorphism, templates and the STL.
+A console application that stores and queries an English⇄Russian  dictionary.
+Entries are loaded from a text file, can be searched in both directions,
+and the data can be saved back to disk. The project demonstrates core C++
+concepts (inheritance, polymorphism, templates, STL) and a professional
+development workflow (Git, Pull Requests, CI, documentation).
+Консольное приложение для хранения англо-русского/русско-английского словаря и поиска в нём.
+Словарные статьи загружаются из текстового файла, поиск возможен в обоих направлениях,
+а данные можно сохранить обратно на диск. Проект демонстрирует ключевые концепции C++
+(наследование, полиморфизм, шаблоны, STL) и профессиональный процесс разработки
+(Git, pull-реквесты, CI, документация).
 
 ## Requirements checklist
 
 | Requirement | Where it is covered |
 |---|---|
-| Max 3 people per project | Team of 3, roles in [CONTRIBUTING.md](CONTRIBUTING.md) |
+| Roles| roles in [CONTRIBUTING.md](CONTRIBUTING.md) |
 | GitHub + pull requests, history, iterative work | Branch-per-task + PR template, `.github/` |
 | Project documentation in MD files | `README.md`, `CONTRIBUTING.md`, `docs/*.md` |
 | Mandatory unit testing | `tests/test_dictionary.cpp` (14 tests), run in CI |
 | Task board | [docs/BOARD.md](docs/BOARD.md) (mirror in GitHub Projects) |
-| Detailed report + defense presentation | [docs/REPORT.md](docs/REPORT.md) + slides |
+| Detailed report  | [docs/REPORT.md](docs/REPORT.md) |
 | Inheritance, polymorphism, templates, STL | See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) |
 | Language: C++ | C++17, no external dependencies |
 
